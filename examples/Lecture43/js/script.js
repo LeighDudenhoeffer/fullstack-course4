@@ -5,13 +5,13 @@ string = string + " World";
 console.log(string + "!");
 
 
-// ***** Regular math operators: +, -, *, /
-console.log((5 + 4) / 3);
-console.log(undefined / 5);
-function test1 (a) {
-  console.log( a / 5);
-}
-test1();
+// // ***** Regular math operators: +, -, *, /
+// console.log((5 + 4) / 3);
+// console.log(undefined / 5);
+// function test1 (a) {
+//   console.log( a / 5);
+// }
+// test1();
 
 
 // // ***** Equality
@@ -36,45 +36,45 @@ test1();
 // }
 
 
-// ***** If statement (all false)
-if ( false || null ||
-    undefined || "" || 0 || NaN) {
-  console.log("This line won't ever execute");
-}
-else {
-  console.log ("All false");
-}
+// // ***** If statement (all false)
+// if ( false || null ||
+//     undefined || "" || 0 || NaN) {
+//   console.log("This line won't ever execute");
+// }
+// else {
+//   console.log ("All false");
+// }
 
-// ***** If statement (all true)
-if (true && "hello" && 1 && -1 && "false") {
-  console.log("All true");
-}
+// // ***** If statement (all true)
+// if (true && "hello" && 1 && -1 && "false") {
+//   console.log("All true");
+// }
 
 
 // ***** Best practice for {} style
 // Curly brace on the same or next line...
 // Is it just a style?
-function a()
-{
-  return
-  {
-    name: "Yaakov"
-  };
-}
+// function a()
+// {
+//   return
+//   {
+//     name: "Yaakov"
+//   };
+// }
 
-function b() {
-  return {
-      name: "Yaakov"
-  };
-}
+// function b() {
+//   return {
+//       name: "Yaakov"
+//   };
+// }
 
-console.log(a());
-console.log(b());
+// console.log(a());
+// console.log(b());
 
 
 // For loop
 var sum = 0;
-for (var i = 0; i < 10; i++) {
+for (var i = 0; i < 10; i++) { //i++ is the same as i = i + 1; similar to i--
   console.log(i);
   sum = sum + i;
 }
