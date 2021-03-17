@@ -5,8 +5,6 @@ string = string + " World";
 console.log(string + "!");
 
 
-
-
 // ***** Regular math operators: +, -, *, /
 console.log((5 + 4) / 3);
 console.log(undefined / 5);
@@ -16,40 +14,31 @@ function test1 (a) {
 test1();
 
 
+// // ***** Equality
+// var x = 4, y = 4;
+// if (x == y) {
+//   console.log("x=4 is equal to y=4");
+// }
+
+// x = "4";
+// if (x == y) {
+//   console.log("x='4' is equal to y=4");
+// }
 
 
-// ***** Equality 
-var x = 4, y = 4;
-if (x == y) {
-  console.log("x=4 is equal to y=4");
-}
-
-x = "4";
-if (x == y) {
-  console.log("x='4' is equal to y=4");
-}
-
-
-
-
-
-// ***** Strict equality
-if (x === y) {
-  console.log("Strict: x='4' is equal to y=4");
-}
-else {
-  console
-  .log("Strict: x='4' is NOT equal to y=4");
-}
-
-
-
-
+// // ***** Strict equality
+// if (x === y) {
+//   console.log("Strict: x='4' is equal to y=4");
+// }
+// else {
+//   console
+//   .log("Strict: x='4' is NOT equal to y=4");
+// }
 
 
 // ***** If statement (all false)
-if ( false || null || 
-     undefined || "" || 0 || NaN) {
+if ( false || null ||
+    undefined || "" || 0 || NaN) {
   console.log("This line won't ever execute");
 }
 else {
@@ -62,22 +51,19 @@ if (true && "hello" && 1 && -1 && "false") {
 }
 
 
-
-
-
 // ***** Best practice for {} style
 // Curly brace on the same or next line...
 // Is it just a style?
-function a() 
+function a()
 {
   return
-  { 
+  {
     name: "Yaakov"
   };
 }
 
 function b() {
-  return { 
+  return {
       name: "Yaakov"
   };
 }
@@ -93,6 +79,4 @@ for (var i = 0; i < 10; i++) {
   sum = sum + i;
 }
 console.log("sum of 0 through 9 is: " + sum);
-
-
 
